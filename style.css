@@ -1,96 +1,113 @@
-@import url('https://fonts.google.com/specimen/Karla');
-
-html{
-  margin-top:5rem;
-  margin-bottom:5rem;
-  background-color:hsl(204, 43%, 93%);
-  padding-right:.5rem;
-  
-  padding-left:.5rem;
- 
-}
-
-#headline{
-  color:hsl(204, 43%, 93%);
-  font-weight:bold;
-  font-size:25px;
-}
-h1{
-  text-align:left;
-  
-}
-
-#title-header{
- border-top-left-radius:2rem;
-  border-top-right-radius:2rem;
-  padding-top:.5rem;
-  padding-bottom:3rem;
-  background-color:white;
-  padding-left:2rem;
-  display:block;
-  margin:auto;
-  font-size:20px;
-  width:895px;
-  height:200px;
-}
-body{
-  
- @import url('https://fonts.google.com/specimen/Karla') ;
-Font-Family: Karla;
-font-Weights: 400, 700;
-font-size:16px;
-}
-
-    
-.sign-on-button{
-  width:300px;
-  height:50px;
-  border-radius:2rem;
-  background-color: hsl(71, 73%, 54%);
-  color:white;
-  font-size:20px;
-}
-
-.topic-header{
-  
-color: hsl(71, 73%, 54%)
-
-}
-
-#title-head{
-  color:hsl(179, 62%, 43%);
-
-}
-
-#bottom-region{
-  margin-left:17.5rem;
-  position:absolute;
-  background-color: hsl(179, 62%, 43%);
-  width:910px;
-  color:white;
-  padding-top:1.5rem;
-  padding-left rem;
-  padding-bottom:2rem;
-  padding-right:1rem;
-  font-size:20px;
-  display:grid;
-  grid-gap:75px;
-  grid-template-columns: 1fr 1fr;
-  border-bottom-right-radius:2rem;
-  border-bottom-left-radius:2rem
-  
-}
-
-.container1{
-  padding-left:2.5rem;
+#welcome-section{
+  font-size:30px;
   text-align:center;
-  position:relative;
-   z-index:1;
+}
+#background-color{
+  background:lightblue;
+  margin-top:0;
+  margin-bottom:0;
+  padding-bottom:0;
+}
+#contacts{
+  background:green;
+  height:100px;
+  text-align:center;
+  font-size:30px;
+}
+
+p{
+  font-size:50px;
+  font-weight:bold;
+}
+h2{
+  font-size:30px;
+  font-weight:bold;
+  text-align:center;
+}
+
+#navbar{
+  display:block;
+  position:fixed;
+  width:100%;
+  background-color:maroon;
+  text-align:center;
+  font-size:30px;
+  color:white;
+  height:50px;
+}
+
+#welcome-section{
+  padding-top:0px;
+  margin-top:0px;
+  display:block;
+  height:100vh;
+  width:100%;
+  background-color:navy;
+  flex-wrap:wrap;
+  border-radius:2rem;
+}
+#project-organization{
+  display:grid;
+  grid-template-columns:600px 600px;
+  grid-template-rows:600x 600px;
+  grid-gap:4rem;
+  max-width:900px;
+  margin:0 auto;
+  flex-wrap:wrap;
+  margin-bottom:4rem;
+  width:100%;
+  background-color:lightblue;
+}
+
+p2{
+
+  font-weight:bold;
+  font-color:blue;
+  font-size:30px;
+  text-align:center;
+  
+}
+.heading-1{
+  padding-left:3rem;
+  
+}
+.heading-2{
+ padding-left:8rem; 
+}
+
+.heading-3{
+  padding-left:5rem;
+}
+
+.heading-4{
+  padding-left:8rem;
+}
+@media screen and (max-width: 800px) {
+  
+  
+  #project-organization{
+  display:grid;
+  grid-template-columns:100px 100px;
+  grid-template-rows:100x 100px;
+  grid-gap:1fr;
+  max-width:200px;
+  margin:0 auto;
+  flex-wrap:wrap;
+  margin-bottom:100px;
+  width:100%;
+  background-color:lightblue;
+ }
+  p2{
+  font-weight:bold;
+  font-color:blue;
+  font-size:30px;
+  text-align:center;
+  }
+  
+}
+  
+  
+  
   
 }
 
-.container2{
-  position:relative;
-  z-index:2;
-  
-}
